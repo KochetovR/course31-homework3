@@ -304,10 +304,15 @@ header {
   margin-right: auto;
 }
 .examples .item {
-  display: block;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
   margin-right: 30px;
+}
+.examples-img {
+  display: block;
+}
+.decor div {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .examples .item:nth-child(3n + 3) {
   margin-right: 0px;
