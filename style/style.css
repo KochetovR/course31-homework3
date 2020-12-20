@@ -89,6 +89,7 @@ header {
 }
 
 .logo {
+  display: block;
   margin-right: 93px;
 
   color: var(--accent-color);
@@ -149,7 +150,9 @@ header {
   margin-right: auto;
   margin-left: auto;
   min-width: 200px;
+  border: 0px;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -291,7 +294,6 @@ header {
   font-size: 16px;
   line-height: 1.62x;
   text-align: center;
-  outline: transparent;
 }
 .button:focus,
 .button:hover {
@@ -342,17 +344,18 @@ header {
   text-decoration: none;
 }
 .decor {
+  display: block;
+
   text-decoration: none;
 }
 /* footer */
-.footer .container {
-  padding: 60px 0px;
-}
 .footer-company {
   display: block;
   margin-bottom: 20px;
 }
 .footer {
+  padding: 60px 0px;
+
   background-color: var(--footer-backgroung-color);
 }
 .logo-footer {
@@ -360,6 +363,7 @@ header {
 }
 
 .footer-address {
+  display: block;
   margin-bottom: 9px;
 
   color: var(--primary-white-color);
@@ -370,6 +374,8 @@ header {
   margin-bottom: 9px;
 }
 .footer-contacts {
+  display: block;
+
   color: var(--footer-color);
   line-height: 1.71;
   text-decoration: none;
