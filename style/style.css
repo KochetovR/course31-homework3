@@ -129,6 +129,7 @@ header {
 .hero {
   padding: 200px 0px;
 
+  text-align: center;
   background-color: var(--footer-backgroung-color);
 }
 
@@ -140,7 +141,6 @@ header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -157,7 +157,6 @@ header {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 /* main */
 
@@ -281,6 +280,8 @@ header {
 
 /* buttons */
 .button {
+  padding: 6px 22px;
+  border: 0px;
   border-radius: 4px;
 
   background-color: var(--secondary-backgroung-color);
@@ -290,6 +291,7 @@ header {
   font-size: 16px;
   line-height: 1.62x;
   text-align: center;
+  outline: transparent;
 }
 .button:focus,
 .button:hover {
@@ -309,11 +311,6 @@ header {
 .examples-img {
   display: block;
 }
-.decor div {
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-}
 .examples .item:nth-child(3n + 3) {
   margin-right: 0px;
 }
@@ -323,12 +320,13 @@ header {
 
 /* content portfolio */
 .decor div {
-  padding: 20px 0;
+  padding: 20px 0px 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .portfolio-title {
   margin-bottom: 4px;
-  padding-left: 24px;
-
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
@@ -337,8 +335,6 @@ header {
   text-decoration: none;
 }
 .portfolio-filter {
-  padding-left: 24px;
-
   color: var(--primary-text-color);
   font-weight: normal;
   font-size: 16px;
