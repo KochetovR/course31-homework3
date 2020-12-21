@@ -33,19 +33,19 @@ body {
 }
 h2,
 h3 {
-  margin: 0px;
+  margin: 0;
 
   color: var(--title-text-color);
 }
 p {
-  margin: 0px;
+  margin: 0;
 }
 .list {
   list-style: none;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .container {
   width: 1200px;
@@ -77,7 +77,7 @@ header {
   margin-right: 50px;
 }
 .header-link .item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .header-contacts {
   display: flex;
@@ -103,7 +103,7 @@ header {
 }
 .nav-link {
   display: block;
-  padding: 32px 0px;
+  padding: 32px 0;
 
   color: var(--title-text-color);
   text-decoration: none;
@@ -117,7 +117,7 @@ header {
 }
 .nav-contacts {
   display: block;
-  padding: 32px 0px;
+  padding: 32px 0;
 
   color: var(--primary-text-color);
   text-decoration: none;
@@ -128,14 +128,14 @@ header {
 }
 /* hero */
 .hero {
-  padding: 200px 0px;
+  padding: 200px 0;
 
   text-align: center;
   background-color: var(--footer-backgroung-color);
 }
 
 .hero-title {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
 
   color: var(--primary-white-color);
@@ -149,8 +149,9 @@ header {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  padding: 10px 32px;
   min-width: 200px;
-  border: 0px;
+  border: 0;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -165,7 +166,7 @@ header {
 
 /* features */
 .features {
-  padding: 94px 0px;
+  padding: 94px 0;
 }
 
 .features-title {
@@ -185,7 +186,7 @@ header {
 }
 .features-list .item:last-child {
   width: 1200px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .features-description {
@@ -204,7 +205,7 @@ header {
   display: flex;
 }
 .works-list .list:first-child {
-  margin-left: 0px;
+  margin-left: 0;
 }
 .works-list .list {
   margin-left: 30px;
@@ -220,7 +221,7 @@ header {
 }
 /* team */
 .team {
-  padding: 94px 0px;
+  padding: 94px 0;
 
   background-color: var(--secondary-backgroung-color);
 }
@@ -228,7 +229,7 @@ header {
   display: flex;
 }
 .team-list .item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .team-list .item {
   width: 270px;
@@ -239,7 +240,7 @@ header {
   background-color: var(--primary-white-color);
 }
 .team-list .item div {
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -270,7 +271,7 @@ header {
 
 /* examples */
 .examples-container {
-  padding: 94px 0px;
+  padding: 94px 0;
 }
 .examples-button {
   display: flex;
@@ -284,8 +285,9 @@ header {
 /* buttons */
 .button {
   padding: 6px 22px;
-  border: 0px;
+  border: 0;
   border-radius: 4px;
+  cursor: pointer;
 
   background-color: var(--secondary-backgroung-color);
   color: var(--title-text-color);
@@ -314,7 +316,7 @@ header {
   display: block;
 }
 .examples .item:nth-child(3n + 3) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .examples .item:nth-child(-n + 6) {
   margin-bottom: 30px;
@@ -354,7 +356,7 @@ header {
   margin-bottom: 20px;
 }
 .footer {
-  padding: 60px 0px;
+  padding: 60px 0;
 
   background-color: var(--footer-backgroung-color);
 }
